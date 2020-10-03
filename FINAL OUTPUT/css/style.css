@@ -181,7 +181,7 @@ b{
   margin-top: 30px;
   margin-left: 630px;
   border:5px double #ffffff;
-  background-color: rgb(235, 7, 178);
+  background-color: #12475f;
   transform: scale(0.8);
   animation-name: box2;
   animation-duration: 10s;
@@ -285,7 +285,7 @@ b{
     border:5px double #ffffff;
     margin-top: -410px;
     margin-left: 245px;
-    background-color: rgb(122, 8, 117);
+    background-color: #12475f;
     transform: scale(0.8);
     animation-name: box3;
     animation-duration: 10s;
@@ -448,3 +448,4 @@ b{
     height: 100px;
     transform: rotate(133deg);
   }
+}
