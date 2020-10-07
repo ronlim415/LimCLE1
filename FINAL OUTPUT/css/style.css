@@ -20,12 +20,6 @@ body{
   0% {background-color: #333333;}
   100%{background-color: #f19e04;}
 }
-.container2{
-  width: 80%;
-  margin: auto;
-  overflow: hidden;
-  background-color: #cccccc;
-}
 #mainHeader{
   background-color: #333333;
   animation-name: bg;
@@ -43,33 +37,12 @@ h1{
   text-align: center;
   font-size: 2vw;
 }
-#mainNav{
-  background: #cccccc;
-  color: black;
-}
-#mainNav ul{
-  padding: 0;
-  margin: 0px;
-  list-style: none;
-}
-#mainNav li{
-  display: inline;
-  padding: 5px 10px;
-}
-#mainNav li:hover{
-  background: #aaa;
-}
-#mainNav a{
-  color: rgb(5, 5, 5);
-  text-decoration: none;
-  font-size: 18px;
-}
 #Footer{
   background: #333333;
   color: #ffffff;
   text-align: center;
   padding: 20px;
-  margin-top: 144px;
+  margin-top: 372px;
   animation-name: bg2;
   animation-duration: 10s;  
   animation-iteration-count: infinite;
@@ -88,6 +61,9 @@ p{
   color:#ffffff;
   font-family:'Courier New', Courier, monospace;
   text-align: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 b{
   color:#ffffff;
@@ -192,7 +168,7 @@ b{
 @media screen and (min-width: 800px){
   .container4{
     margin-left: 45%;
-    transform: scale(0.5);
+    transform: scale(0.8);
   }
 }
 @keyframes box2{
@@ -296,7 +272,7 @@ b{
   @media screen and (min-width: 800px){
     .container5{
       margin-left: 0%;
-      transform: scale(0.5);
+      transform: scale(0.8);
     }
   }
   @keyframes box3{
@@ -447,5 +423,24 @@ b{
     width: 100px;
     height: 100px;
     transform: rotate(133deg);
+  }
+  section{
+    position: relative;
+    margin-left: 470px;
+    margin-top: -227px;
+    border: 5px #ffffff;
+    border-style: double;
+    width: 20%;
+    height: 20vh;
+    color: #ffffff;
+    background: linear-gradient(-45deg, #f19e04,#c46308,#55ACEE,#12475f);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+  }
+  @keyframes change{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
   }
 }
