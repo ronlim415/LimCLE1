@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lim_Learning_Evidence</title>
+  <title>Learning Evidence</title>
   <link rel="stylesheet" href=".//css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -24,17 +24,6 @@
       </div>
     </div>
   </header>
-  <nav id="mainNav">
-    <div class="container2">
-      <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">SHOP</a></li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">CONTACT</a></li>
-      </ul>
-    </div>
-  </nav>
-  </div>
   <div class="container4">
     <div class="bod"></div>
     <div class="nck"></div>
@@ -55,6 +44,11 @@
      </div>
     <a href="#" class="btn2">SHOP STICKER</a>
    </div>
+    <section>
+      <p>sale!sale!sale!</p>
+      <p>sale!sale!sale!</p>
+      <p>sale!sale!sale!</p>
+    </section>
     <footer id="Footer">
       <div class="box1">
         <div class="sclera1"></div>
