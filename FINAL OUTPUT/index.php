@@ -47,7 +47,6 @@
     <section>
       <p>sale!sale!sale!</p>
       <p>sale!sale!sale!</p>
-      <p>sale!sale!sale!</p>
     </section>
     <footer id="Footer">
       <div class="box1">
